@@ -1,37 +1,5 @@
-## Welcome to GitHub Pages
+## Undergraduate Thesis
 
-You can use the [editor on GitHub](https://github.com/moaylesbury/michaelaylesbury.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+In 2022 I completed my undergraduate thesis entitled "An Interactive Web Explorer For Compilers". It encapsulates the formulation and design of the Multi-Level Visual Intermediate Representation (MLVIR) for Multi-Level Intermediate Representation (MLIR), an intermediate representation developed under the LLVM compiler framework umbrella. MLVIR provides a visual, compressed, nested IR structure allowing for effective visualisation of IRs, both small and very large. This project also presents the MLVIR tool, written in a Jupyter Notebook in Python, making use of the xDSL toolkit. The MLVIR tool allows IR input for MLVIR generation, as well as exploration of pattern matching and rewriting over such an MLVIR. The thesis can be seen below.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/moaylesbury/michaelaylesbury.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<a href="moaylesbury.github.io/An Interactive Web Explorer for Compilers.pdf" target="_blank">PDF.</a>
