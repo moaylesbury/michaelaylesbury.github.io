@@ -1,14 +1,10 @@
 # Michael Aylesbury
 
-[LinkedIn](https://www.linkedin.com/in/michaelaylesbury/)
-[GitHub](https://github.com/moaylesbury)
-[CV](https://nbviewer.org/github/moaylesbury/moaylesbury.github.io/blob/gh-pages/Michael%20Aylesbury%20CV.pdf)
-
 
 <!-- ![Alt text](./linkedin-brands.svg) -->
 [<img src="./linkedin-brands.svg" height="25px" width="25px">](https://www.linkedin.com/in/michaelaylesbury/)
-<img src="./square-github-brands.svg" height="25px" width="25px">
-<img src="./file-solid.svg" height="25px" width="25px">
+[<img src="./square-github-brands.svg" height="25px" width="25px">](https://github.com/moaylesbury)
+[<img src="./file-solid.svg" height="25px" width="25px">](https://nbviewer.org/github/moaylesbury/moaylesbury.github.io/blob/gh-pages/Michael%20Aylesbury%20CV.pdf)
 
 
 ## Undergraduate Thesis
