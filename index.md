@@ -5,8 +5,10 @@
 [CV](https://nbviewer.org/github/moaylesbury/moaylesbury.github.io/blob/gh-pages/Michael%20Aylesbury%20CV.pdf)
 
 
-![Alt text](./linkedin-brands.svg)
-<img src="./linkedin-brands.svg" height="25px" width="25px">
+<!-- ![Alt text](./linkedin-brands.svg) -->
+<a href=https://www.linkedin.com/in/michaelaylesbury/>
+  <img src="./linkedin-brands.svg" height="25px" width="25px">
+</a>
 
 
 ## Undergraduate Thesis
