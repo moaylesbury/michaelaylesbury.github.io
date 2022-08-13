@@ -6,7 +6,7 @@
 
 
 ![Alt text](./linkedin-brands.svg)
-<img src="./linkedin-brands.svg">
+<img src="./linkedin-brands.svg" height="25px" width="25px">
 
 
 ## Undergraduate Thesis
