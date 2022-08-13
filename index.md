@@ -6,9 +6,9 @@
 
 
 <!-- ![Alt text](./linkedin-brands.svg) -->
-<a href=https://www.linkedin.com/in/michaelaylesbury/><img src="./linkedin-brands.svg" height="25px" width="25px">
+[<img src="./linkedin-brands.svg" height="25px" width="25px">](https://www.linkedin.com/in/michaelaylesbury/)
 <img src="./square-github-brands.svg" height="25px" width="25px">
-<img src="./file-solid.svg" height="25px" width="25px"></a>
+<img src="./file-solid.svg" height="25px" width="25px">
 
 
 ## Undergraduate Thesis
