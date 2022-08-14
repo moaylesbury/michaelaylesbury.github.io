@@ -11,13 +11,15 @@ layout: default
 others around me by staying informed, living outside of my comfort zone, and treating
 others non-judgementally, with respect, empathy and compassion.
 
+this right here is a [test](./undergraduate-thesis.html).
+
 ## Technologies Experience
 
 > Python, Java, C, Angular, React, HTML, JavaScript, TypeScript, Terminal, Windows, macOS, Linux, Haskell 
 
 | Portfolio                                                   |
 |:------------------------------------------------------------|
-| [Undergraduate Thesis] (./undergraduate-thesis.md)         |
-| [Individual Projects] (./individual-projects.md)           | 
-| [Group Projects] (./group-projects.md)                     | 
-| [Awards & Certifications] (./awards-and-certifications.md) |
+| [Undergraduate Thesis](./undergraduate-thesis.html)         |
+| [Individual Projects](./individual-projects.html)           | 
+| [Group Projects](./group-projects.html)                     | 
+| [Awards & Certifications](./awards-and-certifications.md)   |
