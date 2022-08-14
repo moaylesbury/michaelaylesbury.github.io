@@ -17,7 +17,7 @@ others non-judgementally, with respect, empathy and compassion.
 
 | Portfolio                                                   |
 |:------------------------------------------------------------|
-| [Undergraduate Thesis] (./undergraduate-thesis.html)         |
-| [Individual Projects] (./individual-projects.html)           | 
-| [Group Projects] (./group-projects.html)                     | 
-| [Awards & Certifications] (./awards-and-certifications.html) |
+| [Undergraduate Thesis] (./undergraduate-thesis.md)         |
+| [Individual Projects] (./individual-projects.md)           | 
+| [Group Projects] (./group-projects.md)                     | 
+| [Awards & Certifications] (./awards-and-certifications.md) |
