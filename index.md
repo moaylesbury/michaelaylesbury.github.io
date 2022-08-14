@@ -11,8 +11,6 @@ layout: default
 others around me by staying informed, living outside of my comfort zone, and treating
 others non-judgementally, with respect, empathy and compassion.
 
-this right here is a [test](./undergraduate-thesis.html).
-
 ## Technologies Experience
 
 > Python, Java, C, C++, Angular, React, HTML, JavaScript, TypeScript, Terminal, Windows, macOS, Linux, Haskell 
