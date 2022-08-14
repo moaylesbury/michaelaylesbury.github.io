@@ -15,7 +15,7 @@ this right here is a [test](./undergraduate-thesis.html).
 
 ## Technologies Experience
 
-> Python, Java, C, Angular, React, HTML, JavaScript, TypeScript, Terminal, Windows, macOS, Linux, Haskell 
+> Python, Java, C, C++, Angular, React, HTML, JavaScript, TypeScript, Terminal, Windows, macOS, Linux, Haskell 
 
 | Portfolio                                                   |
 |:------------------------------------------------------------|
