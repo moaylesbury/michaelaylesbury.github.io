@@ -15,8 +15,9 @@ others non-judgementally, with respect, empathy and compassion.
 
 > Python, Java, C, Angular, React, HTML, JavaScript, TypeScript, Terminal, Windows, macOS, Linux, Haskell 
 
-| Portfolio            |
-|:---------------------|
-| Undergraduate Thesis |
-| Individual Projects  | 
-| Group Projects       | 
+| Portfolio                                                   |
+|:------------------------------------------------------------|
+| [Undergraduate Thesis] (/undergraduate-thesis.html)         |
+| [Individual Projects] (/individual-projects.html)           | 
+| [Group Projects] (/group-projects.html)                     | 
+| [Awards & Certifications] (/awards-and-certifications.html) |
