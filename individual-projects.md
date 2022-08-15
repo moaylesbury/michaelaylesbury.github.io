@@ -22,6 +22,8 @@ In the future I would create a more sophisticated board generating algorithm, as
 
 ### Sorting Algorithm Visualiser (Unfinished)
 
+> React, JavaScript
+
 I was interested in the computational theory behind sorting algorithms, as well as how these algorithms could be effectively visualised. I researched insertion sort, merge sort, selection sort, quick sort and pancake sort. From this research I compiled a document of [my findings](https://nbviewer.org/github/moaylesbury/Sorting-Algorithm-Visualiser/blob/master/Research/Sorting%20Algorithm%20Research.pdf), including how the algorithms work and their time complexities.
 
 To get an idea of how these algorithms actually work in practice, I implemented their functionalities in Python and tried different test cases. From here I moved onto creating a web applciation using React. This was my first experience creating visual elements in JavaScript that move as internal data changes 
@@ -51,3 +53,11 @@ Then, in order to cast realistic shadows and lighting, I measured the relative d
 This render allowed scene specific shadows and highlights to be formed. From here, the original image and the rendered image were taken into Photoshop, and a composite was created. Colour correcting and touchups were applied in order to achieve the best possible final product.
 
 <img src="./cg/final composite image.png">
+
+## Netflix Clone using Astra DB and GraphQL
+
+> AstraDB, GraphQL
+
+This project was part of the DataStax development series. I created an AstraDB instance, and used GraphQL to create a movie and genre tabls, and populate it with a CSV dataset. This database was then conected to Netlify and the instance was deployed.
+
+<img src="./ui.png">
