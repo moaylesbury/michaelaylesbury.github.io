@@ -76,17 +76,17 @@ This implementation allows transferring a file from the sender to the receiver o
 
 The receiver stores the transmitted data (removing headers) into a local file. The transfer is successful if the sent and received files match on a binary level, which was checked using the diff command.
 
-{% highlight python %}python3 Sender1.py <RemoteHost IP> <Port> <Filename>{% end highlight%}
+{% highlight python %}python3 Sender1.py <RemoteHost IP> <Port> <Filename>{% endhighlight %}
 
-{% highlight python %}python3 Receiver1.py <Port> <Filename>{% end highlight%}
+{% highlight python %}python3 Receiver1.py <Port> <Filename>{% endhighlight %}
 
 ### Stop-and-wait
 
 The Sender1 and Receiver1 programs were extended to implement the [Stop-and-Wait](https://www.isi.edu/nsnam/DIRECTED_RESEARCH/DR_HYUNAH/D-Research/stop-n-wait.html#:~:text=%22stop%2Dn%2Dwait%22,under%20unreliable%20packet%20delivery%20system.&text=After%20transmitting%20one%20packet%2C%20the,before%20transmitting%20the%20next%20one.) protocol. This code was based upon two finite state machines; one for the sender and one for the receiver. This protocol introduces the acknowledgement (ACK) message used by the receiver to inform the sender that a message had been received. ACK messages are 2 bytes, holding a sequence number. Duplicates were deleted at the receiver end using sequence numbers. A 5% packet loss rate was used, with the rest of TC configuration parameters as
 before. The sender outputs the number of retransmissions and throughput (in Kbytes/second). 
 
-{% highlight python %}python3 Sender2.py <RemoteHost IP> <Port> <Filename> <RetryTimeout (ms)>{% end highlight%}
-{% highlight python %}python3 Receiver2.py <Port> <Filename>{% end highlight%}
+{% highlight python %}python3 Sender2.py <RemoteHost IP> <Port> <Filename> <RetryTimeout (ms)>{% endhighlight %}
+{% highlight python %}python3 Receiver2.py <Port> <Filename>{% endhighlight %}
 
 
 
@@ -101,9 +101,9 @@ Different window sizes were experimented with (increasing in powers of 2 startin
 {% highlight python %}
 python3 Sender3.py <RemoteHost IP> <Port> <Filename> <RetryTimeout (ms)>
 <WindowSize (int)>
-{% end highlight%}
+{% endhighlight %}
 
-{% highlight python %} python3 Receiver3.py <Port> <Filename>{% end highlight%}
+{% highlight python %} python3 Receiver3.py <Port> <Filename>{% endhighlight %}
 
 ### Selective repeat
 
@@ -112,8 +112,8 @@ Extended Sender3.py and Receiver3.py to implement the [Selective Repeat](https:/
 The TC link parameters were set to 10Mbps bandwidth, 25ms one-way propagation delay and 5% packet loss rate, experiment with different window size values.
 
 {% highlight python %}python3 Sender4.py <RemoteHost IP> <Port> <Filename> <RetryTimeout>
-<WindowSize>{% end highlight%}
+<WindowSize>{% endhighlight %}
 
-{% highlight python %}python3 Receiver4.py <Port> <Filename> <WindowSize>{% end highlight%}
+{% highlight python %}python3 Receiver4.py <Port> <Filename> <WindowSize>{% endhighlight %}
 
 
