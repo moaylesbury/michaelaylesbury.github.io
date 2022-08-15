@@ -27,6 +27,7 @@ In this work, we explore semantic image segmentation in a supervised regime to e
 
 ## HearMe
 <em>Role: Front-end developer</em>
+<em>Prize: JPMorgan Chase & Co. Empowering Minorities Award</em>
 
 Created an the Edinburgh hackathon Hack the Burgh V.
 
