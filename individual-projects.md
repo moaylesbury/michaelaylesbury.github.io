@@ -54,10 +54,66 @@ This render allowed scene specific shadows and highlights to be formed. From her
 
 <img src="./cg/final composite image.png">
 
-## Netflix Clone using Astra DB and GraphQL
+## Netflix Clone using AstraDB and GraphQL
 
 > AstraDB, GraphQL
 
 This project was part of the DataStax development series. I created an AstraDB instance, and used GraphQL to create a movie and genre tabls, and populate it with a CSV dataset. This database was then conected to Netlify and the instance was deployed.
 
 <img src="./ui.png">
+
+## Implementation of Basic, Stop-And-Wait, Go-Back-N, and Selective Repeat Data Transmission Protocols
+
+> Linux, virtual machine, Python, Vagrant
+
+I used the Linux VM traffic control utility to emulate a link between two communicating processes; a sender and receiver. The TC utility allowed the kernel packet scheduler to emulate packet delay and loss, and limit bandwidth for UDP or TCP applications. Because sender and receiver processes for this are within the same VM, they communicate with each other through the loopback interface (lo).
+
+This project implemented four protocol frameworks; basic transmission under ideal conditions, stop-and-wait, go-back-N, and selective repeat. There are two Python files for each respective protocol, named Sender1.py - Sender4.py and Receiver1.py - Receiver4.py.
+
+### Basic transmission
+
+This implementation allows transferring a file from the sender to the receiver on localhost over UDP as a sequence of small messages with 1KB maximum payload using the loopback interface, configured with 10Mbps bandwidth, 5ms one-way propagation delay (10ms round-trip) and 0% packet loss rate. Each 1KB message has a 3 byte header; a 2 byte sequence number and 1 byte end-of-file flag indicating the last message. It simply sends messages sequentially.
+
+The receiver stores the transmitted data (removing headers) into a local file. The transfer is successful if the sent and received files match on a binary level, which was checked using the diff command.
+
+{% highlight python %}python3 Sender1.py <RemoteHost IP> <Port> <Filename>{% end highlight%}
+
+{% highlight python %}python3 Receiver1.py <Port> <Filename>{% end highlight%}
+
+### Stop-and-wait
+
+The Sender1 and Receiver1 programs were extended to implement the [Stop-and-Wait](https://www.isi.edu/nsnam/DIRECTED_RESEARCH/DR_HYUNAH/D-Research/stop-n-wait.html#:~:text=%22stop%2Dn%2Dwait%22,under%20unreliable%20packet%20delivery%20system.&text=After%20transmitting%20one%20packet%2C%20the,before%20transmitting%20the%20next%20one.) protocol. This code was based upon two finite state machines; one for the sender and one for the receiver. This protocol introduces the acknowledgement (ACK) message used by the receiver to inform the sender that a message had been received. ACK messages are 2 bytes, holding a sequence number. Duplicates were deleted at the receiver end using sequence numbers. A 5% packet loss rate was used, with the rest of TC configuration parameters as
+before. The sender outputs the number of retransmissions and throughput (in Kbytes/second). 
+
+{% highlight python %}python3 Sender2.py <RemoteHost IP> <Port> <Filename> <RetryTimeout (ms)>{% end highlight%}
+{% highlight python %}python3 Receiver2.py <Port> <Filename>{% end highlight%}
+
+
+
+
+
+### Go-back-N
+
+Sender2.py and Receiver2.py from Part 2 were extended to implement the [Go-Back-N](https://www.baeldung.com/cs/networking-go-back-n-protocol) protocol, allowing the sender window size to be greater than 1.
+
+Different window sizes were experimented with (increasing in powers of 2 starting from 1), as well as different one-way propagation delay values (5ms, 25ms and 100ms). 10Mbps bandwidth and 5% packet loss rate in each direction were used for the other parameters.
+
+{% highlight python %}
+python3 Sender3.py <RemoteHost IP> <Port> <Filename> <RetryTimeout (ms)>
+<WindowSize (int)>
+{% end highlight%}
+
+{% highlight python %} python3 Receiver3.py <Port> <Filename>{% end highlight%}
+
+### Selective repeat
+
+Extended Sender3.py and Receiver3.py to implement the [Selective Repeat](https://www.geeksforgeeks.org/sliding-window-protocol-set-3-selective-repeat/) protocol. The sender must output throughput (in Kbytes/second).
+
+The TC link parameters were set to 10Mbps bandwidth, 25ms one-way propagation delay and 5% packet loss rate, experiment with different window size values.
+
+{% highlight python %}python3 Sender4.py <RemoteHost IP> <Port> <Filename> <RetryTimeout>
+<WindowSize>{% end highlight%}
+
+{% highlight python %}python3 Receiver4.py <Port> <Filename> <WindowSize>{% end highlight%}
+
+
