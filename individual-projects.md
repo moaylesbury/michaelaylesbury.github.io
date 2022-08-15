@@ -100,7 +100,7 @@ Different window sizes were experimented with (increasing in powers of 2 startin
 
 {% highlight python %}
 python3 Sender3.py <RemoteHost IP> <Port> <Filename> <RetryTimeout (ms)>
-<WindowSize (int)>
+<WindowSize>
 {% endhighlight %}
 
 {% highlight python %} python3 Receiver3.py <Port> <Filename>{% endhighlight %}
