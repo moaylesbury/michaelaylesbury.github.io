@@ -26,7 +26,8 @@ My contributions and a specification of the system can be found [here]().
 In this work, we explore semantic image segmentation in a supervised regime to evaluate and improve the robustness of the state-of-theart DeepLabv3+ architecture across the PASCAL Visual Object Challenge (VOC) 2012 data set. Through experimentation it is found that the baseline model (DeepLabv3+) performance degrades for the image augmentations such as gaussian blur, cutout, and scaling. We propose three models to combat these perturbation within images. The proposed variants are deformable convolution, hierarchical attention, and hierarchical attention paired with a contour detection model. Our proposed networks were able to outperform the baseline MIoU score by 2%, and were more robust to the aforementioned perturbations, evaluated using the Corruption Degradation (CD) metric. We found that our proposed deformable convolution model was more robust to scaling (CD = 0.9) compared to the baseline, and additionally, both variations of the hierarchical attention model were robust against perturbations such as cutout and Gaussian blur (CD = 0.95).
 
 ## HearMe
-<em>Role: Front-end developer</em>
+<em>Role: Front-end developer</em> 
+<br>
 <em>Prize: JPMorgan Chase & Co. Empowering Minorities Award</em>
 
 Created an the Edinburgh hackathon Hack the Burgh V.
