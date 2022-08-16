@@ -10,7 +10,9 @@ layout: default
 
 We designed the product UPLIFT.ED, referred to as "ED" (Elevation Device). ED is an assistive robot designed primarily to aid mobility impaired consumers reach low down drawers by elevating an inner basket of a cabinet drawer to counter-top height.
 
-I was responsible for front-end implementation, desigining mock-ups for the website and then carrying out implementation with the front-end team. My contribution and the lessons I learned can be found [here](https://nbviewer.org/github/moaylesbury/ED-Report/blob/main/s1751472-MichaelAylesbury-Group-15.pdf).
+I was responsible for designing the initial user interface for the app, implementing the front-end and some back-end coding of the app, and designing graphic assets for the team. Throughout the process my team and I learned how to effectively work as a team, learned how to use ROS and Webots, and how to connect the app to Webots using The Standard ROS JavaScript Library. My contribution and the lessons I learned can be found [here](https://nbviewer.org/github/moaylesbury/ED-Report/blob/main/s1751472-MichaelAylesbury-Group-15.pdf).
+
+We presented this at a local fair as a team, explaining the concept and project to others, as well as employees from technology companies such as Google and Bloomberg
 
 A phone demonstration:
 <br>
