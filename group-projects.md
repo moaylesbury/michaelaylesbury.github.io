@@ -5,33 +5,35 @@ layout: default
 # Group Projects
 
 ## UPLIFT.ED Project
+> React, JavaScript
 <em>Role: Front-end developer</em>
 
-Team UPLIFT designed the product UPLIFT.ED, referred to as "ED" (Elevation Device). ED is an assistive robot designed primarily to aid mobility impaired consumers reach low down drawers by elevating an inner basket of a cabinet drawer to counter-top height. Working as part of the app design team, my main contributions consisted of designing the initial user interface for the app, implementing the front-end and back-end coding of the app, and designing graphic assets for the team. Throughout the process my team and I learned how to effectively work as a team, learned how to use ROS and Webots, and how to connect the app to Webots using The Standard ROS JavaScript Library.
+We designed the product UPLIFT.ED, referred to as "ED" (Elevation Device). ED is an assistive robot designed primarily to aid mobility impaired consumers reach low down drawers by elevating an inner basket of a cabinet drawer to counter-top height.
 
-My contribution and the lessons I learned can be found [here](https://nbviewer.org/github/moaylesbury/ED-Report/blob/main/s1751472-MichaelAylesbury-Group-15.pdf).
+I was responsible for front-end implementation, desigining mock-ups for the website and then carrying out implementation with the front-end team. My contribution and the lessons I learned can be found [here](https://nbviewer.org/github/moaylesbury/ED-Report/blob/main/s1751472-MichaelAylesbury-Group-15.pdf).
 
 ## Search Engine Project
 <em>Role: Back-end developer</em>
+> Python
 
-This report details the functionality of our custom Song Lyric Search Engine developed for the Text Technologies for Data Science group project. Our website serves as an intuitive GUI allowing the user to perform boolean, phrase, proximity, and ranked lyrics queries in English and Spanish, all whilst filtering by artist, album, and mood is allowed. We have logically split this report into the two components making up our solution: frontend and backend, within which we explore some of the key technologies and approaches we use in our solution. The report then describes the testing suites performed on the developed website and finally concludes with the individual contributions of each group member.
+We created a custom song lyric search engine. Our website serves as an intuitive GUI allowing the user to perform boolean, phrase, proximity, and ranked lyrics queries in English and Spanish, all whilst filtering by artist, album, and mood. 
 
-My contributions and a specification of the system can be found [here]().
-
-
+I was responsible for finding appropriate lyric websites for both English and Spanish lyrics. I then created the web crawler structure in Python. I took this structure and fully developed the Spanish scraper, as well as a controller acting as an entry point to run both scrapers. All lyrics were stored in a database for analysis, and unique word frequencies were analysed. My contributions and a specification of the system can be found [here](https://nbviewer.org/github/moaylesbury/ED-Report/blob/main/ttds_group20.pdf).
 
 ## Machine Learning Project
 <em>Role: Researcher and writer</em>
+> Overleaf, Google Compute
 
-In this work, we explore semantic image segmentation in a supervised regime to evaluate and improve the robustness of the state-of-theart DeepLabv3+ architecture across the PASCAL Visual Object Challenge (VOC) 2012 data set. Through experimentation it is found that the baseline model (DeepLabv3+) performance degrades for the image augmentations such as gaussian blur, cutout, and scaling. We propose three models to combat these perturbation within images. The proposed variants are deformable convolution, hierarchical attention, and hierarchical attention paired with a contour detection model. Our proposed networks were able to outperform the baseline MIoU score by 2%, and were more robust to the aforementioned perturbations, evaluated using the Corruption Degradation (CD) metric. We found that our proposed deformable convolution model was more robust to scaling (CD = 0.9) compared to the baseline, and additionally, both variations of the hierarchical attention model were robust against perturbations such as cutout and Gaussian blur (CD = 0.95).
+We explored semantic image segmentation in a supervised regime to evaluate and improve the robustness of the state-of-theart DeepLabv3+ architecture across the PASCAL Visual Object Challenge (VOC) 2012 data set. Through experimentation it is found that the baseline model (DeepLabv3+) performance degrades for the image augmentations such as gaussian blur, cutout, and scaling. We proposed three models to combat these perturbation within images. The proposed variants are deformable convolution, hierarchical attention, and hierarchical attention paired with a contour detection model. Our proposed networks were able to outperform the baseline MIoU (mean intersection over union) score by 2%, and were more robust to the aforementioned perturbations, evaluated using the CD (Corruption Degradation) metric. We found that our proposed deformable convolution model was more robust to scaling (CD = 0.9) compared to the baseline, and additionally, both variations of the hierarchical attention model were robust against perturbations such as cutout and Gaussian blur (CD = 0.95).
+
+I was responsible for applying pertubations to images, researching and writing the paper, which can be found [here](https://nbviewer.org/github/moaylesbury/ED-Report/blob/main/MLP-Report.pdf).
 
 ## HearMe
 <em>Role: Front-end developer</em> 
 <br>
 <em>Prize: JPMorgan Chase & Co. Empowering Minorities Award</em>
+> React, JavaScript
 
-Created an the Edinburgh hackathon Hack the Burgh V.
+Created an the Edinburgh, hackathon Hack the Burgh V, we were inspired by APIs developed by Nexmo, and J.P.Morgan's empowerment ideas. HearMe is our website, aimed at people who have hearing impairments or other conditions which make telephone conversations difficult or impossible. HearMe has a simple clean interface which takes in two arguments and returns one. It takes a phone number and a message. HearMe then calls the given number using the Nexmo API and reads the message. After the call, the speech from the other user is converted to text. It is 'a voice for those who need it'.
 
-We were inspired by APIs developed by Nexmo, and J.P.Morgan's empowerment ideas. HearMe is our website, aimed at people who have hearing impairments or other conditions which make telephone conversations difficult or impossible. HearMe has a simple clean interface which takes in two arguments and returns one. It takes a phone number and a message. HearMe then calls the given number using the Nexmo API and reads the message. After the call, the speech from the other user is converted to text. It is 'a voice for those who need it'.
-
-The project page for this project can be found [here](https://devpost.com/software/hear-me).
+I was responsible for the mock-up design of the website, and the front-end implementation. The DevPost page for this project can be found [here](https://devpost.com/software/hear-me).
