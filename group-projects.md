@@ -13,6 +13,7 @@ We designed the product UPLIFT.ED, referred to as "ED" (Elevation Device). ED is
 I was responsible for front-end implementation, desigining mock-ups for the website and then carrying out implementation with the front-end team. My contribution and the lessons I learned can be found [here](https://nbviewer.org/github/moaylesbury/ED-Report/blob/main/s1751472-MichaelAylesbury-Group-15.pdf).
 
 A phone demonstration:
+<br>
 <img src="ed.gif" width="25%" height="25%">
 
 ## Search Engine Project
