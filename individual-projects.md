@@ -8,7 +8,7 @@ layout: default
 > Python
 
 
-A sudoku game created in python using the modules tkinter and numpy. This was my first time using tkinter, so it was interesting exploring the module to create a GUI. Numpy was used to create a matrix representation of the sudoku board. Aside from the grid, the interface consists of four buttons: Solve, New Board, Reset Board, and Solve. The solve button makes use of the [recursive backtracking algorithm](https://en.wikipedia.org/wiki/Sudoku_solving_algorithms#Backtracking), trying numbers 1-9. If the board cannot be solved then the algorithm goes back and tries different numbers until the board is solved.
+A sudoku game I created in python using the modules tkinter and numpy. This was my first time using tkinter, so it was interesting exploring the module to create a GUI. Numpy was used to create a matrix representation of the sudoku board. Aside from the grid, the interface consists of four buttons: Solve, New Board, Reset Board, and Quit. The solve button makes use of the [recursive backtracking algorithm](https://en.wikipedia.org/wiki/Sudoku_solving_algorithms#Backtracking), trying numbers 1-9. If the board cannot be solved then the algorithm goes back and tries different numbers until the board is solved.
 
 In the future I would create a more sophisticated board generating algorithm, as the current one ends up with trends such as 1,2,3,4,5,6,7,8,9 in the first line and consecutive numbers appearing often.
 
@@ -20,7 +20,7 @@ In the future I would create a more sophisticated board generating algorithm, as
 
 During the internship experience with the Bright Network, I received a seminar from Google employees who spoke about the company and the technology industry. They presented us with a brief for a task to implement a command line application with Python that replicates a number of YouTube core functionalities by parsing user commands through the terminal. This task was given a strict deadline of one day, requiring fast implementation with a focus on object-oriented, readable code.
 
-I implemented a video libary class to fetch specific videos, or all videos (from an internal list created by parsing a CSV file). This class was heavily relied on by the main implementation, the video player class. The video player class allowed for playing, pausing, stopping and continuing videos, playlist creation, deletion and viewing, as well as video searching and flagging. Each function relied upon other functions and made sure conditions were in place before carrying out certain actions. This includes making sure a video is playing if the user tries to resume, checking the amount of flags on a video before playing, and ensuring playlists exist beore adding videos to them.
+I implemented a video libary class to fetch specific videos, or all videos (from an internal list created by parsing a CSV file). This class was heavily relied on by the main implementation, the video player class. The video player class allowed for playing, pausing, stopping and continuing videos, playlist creation, deletion and viewing, as well as video searching and flagging. Each function relied upon other functions and made sure conditions were in place before carrying out certain actions. This includes making sure a video is playing if the user tries to resume, checking the amount of flags on a video before playing, and ensuring playlists exist before adding videos to them.
 
 ## Blender Image Composition with Physically Based Rendering and Photoshop 
 > Blender, pbrt-v3, Photoshop
@@ -40,9 +40,9 @@ This render allowed scene specific shadows and highlights to be formed. From her
 <img src="./cg/final composite image.png">
 
 ## Netflix Clone using AstraDB and GraphQL [<img src="square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/appdev-week3-graphql)
-> AstraDB, GraphQL
+> AstraDB, GraphQL, Netlify
 
-This project was part of the DataStax development series. I created an AstraDB instance, and used GraphQL to create a movie and genre tabls, and populate it with a CSV dataset. This database was then conected to Netlify and the instance was deployed.
+This project was part of the DataStax development series. I created an AstraDB instance, and used GraphQL to create a movie and genre tables, and populate it with a CSV dataset. This database was then connected to Netlify and the instance was deployed.
 
 <img src="./ui.png">
 
@@ -74,7 +74,7 @@ before. The sender outputs the number of retransmissions and throughput (in Kbyt
 
 ### Go-back-N
 
-Sender2.py and Receiver2.py from Part 2 were extended to implement the [Go-Back-N](https://www.baeldung.com/cs/networking-go-back-n-protocol) protocol, allowing the sender window size to be greater than 1.
+Sender2.py and Receiver2.py were extended to implement the [Go-Back-N](https://www.baeldung.com/cs/networking-go-back-n-protocol) protocol, allowing the sender window size to be greater than 1.
 
 Different window sizes were experimented with (increasing in powers of 2 starting from 1), as well as different one-way propagation delay values (5ms, 25ms and 100ms). 10Mbps bandwidth and 5% packet loss rate in each direction were used for the other parameters.
 
@@ -89,7 +89,7 @@ python3 Sender3.py <RemoteHost IP> <Port> <Filename> <RetryTimeout (ms)>
 
 Extended Sender3.py and Receiver3.py to implement the [Selective Repeat](https://www.geeksforgeeks.org/sliding-window-protocol-set-3-selective-repeat/) protocol. The sender must output throughput (in Kbytes/second).
 
-The TC link parameters were set to 10Mbps bandwidth, 25ms one-way propagation delay and 5% packet loss rate, experiment with different window size values.
+The TC link parameters were set to 10Mbps bandwidth, 25ms one-way propagation delay and 5% packet loss rate, and different window size values were experimented with.
 
 {% highlight python %}python3 Sender4.py <RemoteHost IP> <Port> <Filename> <RetryTimeout>
 <WindowSize>{% endhighlight %}
@@ -100,7 +100,7 @@ The TC link parameters were set to 10Mbps bandwidth, 25ms one-way propagation de
 
 > Python, OpenFlow, Mininet, Ryu
 
-The purpose of this project was to create an L4 firewall to prevent TCP connections from being initiated by external hosts, while allowing for those initiated by the internal hosts, and in another network to allow all the packets to go through the switch, but for every TCP connection initiated by an external host, you want to collect first ten packets coming from the external network.
+The purpose of this project was to create an L4 firewall to prevent TCP connections from being initiated by external hosts, while allowing for those initiated by the internal hosts. In another network to allow all the packets to go through the switch, but for every TCP connection initiated by an external host, the first ten packets are collected coming from the external network.
   
 ### L4 Firewall
   
@@ -124,7 +124,7 @@ The systems are analysed using the following metrics:
   - nDCG@20: normalized discount cumulative gain at cutoff 20.
 
 
-Then using a corpora containing verses from the Quran and the Bible (split into Old and New Testaments). Considering each book as a separate corpus, and their verses as individual documents, the data is first preprocessed. This includes tokenisation, stopword removal. Mutual Information and chi-squared scores for all tokens (after preprocessing) for each of the corpora was calculated, and a ranked list was formed. Then a Latent Dirichlet Allocation (LDA) model was ran on the entire set of verses from all corpora together, and the results analysed and inspected.
+Then corpora containing verses from the Quran and the Bible (split into Old and New Testaments) were used. Considering each book as a separate corpus, and their verses as individual documents, the data is first preprocessed. This includes tokenisation and stopword removal. Mutual Information and chi-squared scores for all tokens (after preprocessing) for each of the corpora was calculated, and a ranked list was formed. Then a Latent Dirichlet Allocation (LDA) model was ran on the entire set of verses from all corpora together, and the results were analysed and inspected.
 
 
 ## Micro-Haskell Compiler [<img src="square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/Micro-Haskell-Compiler)
