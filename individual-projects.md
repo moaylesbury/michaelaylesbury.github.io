@@ -166,7 +166,7 @@ Two projects were implemented in Solidity on a private blockchain testnet throug
 ### Matching Pennies - Game Theory 
 Two players, A and B, pick a number in {0,1} and reveal their choices simultaneously. If the choices match (both 0 or both 1) A wins 1 ETH. If the choices do not match (one 0 and one 1) B wins 1 ETH. Once the game is over, two new players are be able to use the contract to start a new game
   
-## Custom Token
+### Custom Token
 I created a custom token in the Etherium testnet Ropesten, with the following functions
 - Purchase(address buyer, uint256 amount)
 - Transfer(address sender, address receiver, uint256 amount)
@@ -198,7 +198,7 @@ I implemented an IR tool, that pre-processes text through tokenisation, and stop
 - Proximity search
 - Ranked IR based on TFIDF
   
-## This website! [<img src="square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">(https://github.com/moaylesbury/moaylesbury.github.io/tree/gh-pages)
+## This website! [<img src="square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/moaylesbury.github.io/tree/gh-pages)
 > HTML, markdown
   
 This website was created using GitHub pages and Jekyll themes, and put together using a combination of HTML and markdown.
@@ -207,7 +207,7 @@ This website was created using GitHub pages and Jekyll themes, and put together 
   
 # Unfinished Projects
   
-## Sorting Algorithm Visualiser (Unfinished) [<img src="square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/Sorting-Algorithm-Visualiser)
+## Sorting Algorithm Visualiser [<img src="square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/Sorting-Algorithm-Visualiser)
 > React, JavaScript, HTML
 
 I was interested in the computational theory behind sorting algorithms, as well as how these algorithms could be effectively visualised. I researched insertion sort, merge sort, selection sort, quick sort and pancake sort. From this research I compiled a document of [my findings](https://nbviewer.org/github/moaylesbury/Sorting-Algorithm-Visualiser/blob/master/Research/Sorting%20Algorithm%20Research.pdf), including how the algorithms work and their time complexities.
