@@ -5,7 +5,7 @@ layout: default
 # Group Projects
 
 ## UPLIFT.ED Project
-> React, JavaScript
+> React, JavaScript, HTML
 <em>Role: Front-end developer</em>
 
 We designed the product UPLIFT.ED, referred to as "ED" (Elevation Device). ED is an assistive robot designed primarily to aid mobility impaired consumers reach low down drawers by elevating an inner basket of a cabinet drawer to counter-top height.
@@ -18,7 +18,7 @@ I was responsible for front-end implementation, desigining mock-ups for the webs
 
 We created a custom song lyric search engine. Our website serves as an intuitive GUI allowing the user to perform boolean, phrase, proximity, and ranked lyrics queries in English and Spanish, all whilst filtering by artist, album, and mood. 
 
-I was responsible for finding appropriate lyric websites for both English and Spanish lyrics. I then created the web crawler structure in Python. I took this structure and fully developed the Spanish scraper, as well as a controller acting as an entry point to run both scrapers. All lyrics were stored in a database for analysis, and unique word frequencies were analysed. My contributions and a specification of the system can be found [here](https://nbviewer.org/github/moaylesbury/ED-Report/blob/main/ttds_group20.pdf).
+I was responsible for finding appropriate lyric websites for both English and Spanish lyrics. I then created the web crawler structure in Python. I took this structure and fully developed the Spanish scraper, as well as a controller acting as an entry point to run both scrapers. All lyrics were stored in a database for analysis, and unique word frequencies were analysed. The most frequent words were identified as stop words. My contributions and a specification of the system can be found [here](https://nbviewer.org/github/moaylesbury/ED-Report/blob/main/ttds_group20.pdf).
 
 ## Machine Learning Project
 <em>Role: Researcher and writer</em>
@@ -32,7 +32,7 @@ I was responsible for applying pertubations to images, researching and writing t
 <em>Role: Front-end developer</em> 
 <br>
 <em>Prize: JPMorgan Chase & Co. Empowering Minorities Award</em>
-> React, JavaScript
+> React, JavaScript, HTML
 
 Created an the Edinburgh, hackathon Hack the Burgh V, we were inspired by APIs developed by Nexmo, and J.P.Morgan's empowerment ideas. HearMe is our website, aimed at people who have hearing impairments or other conditions which make telephone conversations difficult or impossible. HearMe has a simple clean interface which takes in two arguments and returns one. It takes a phone number and a message. HearMe then calls the given number using the Nexmo API and reads the message. After the call, the speech from the other user is converted to text. It is 'a voice for those who need it'.
 
