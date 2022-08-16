@@ -220,6 +220,7 @@ To get an idea of how these algorithms actually work in practice, I implemented 
 ## To-do List in Angular
 > Angular, TypeScript, HTML
 
+I'm currently working on a to-do list web application using Angular and Typescript, where users can add and complete tasks. I have learned how to make HTML elements interact with TypeScript, creating/deleting components.
   
   
   
