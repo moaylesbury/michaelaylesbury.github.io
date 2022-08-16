@@ -4,8 +4,7 @@ layout: default
 
 # Individual Projects
 
-## Sudoku Solver [<img src="square-github-brands.svg" height="25px" width="25px" padding-left="20px">](https://www.google.com)
-
+## Sudoku Solver [<img src="square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/Python-Sudoku-Solver)
 > Python
 
 
@@ -15,16 +14,15 @@ In the future I would create a more sophisticated board generating algorithm, as
 
 <img src="./sudoku board.png">
 
-## Bright Internship Work Sample
+## Bright Internship Work Sample [<img src="square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/Bright-Internship-Google-Work-Sample)
 
-> Python
+> Python 
 
 During the internship experience with the Bright Network, I received a seminar from Google employees who spoke about the company and the technology industry. They presented us with a brief for a task to implement a command line application with Python that replicates a number of YouTube core functionalities by parsing user commands through the terminal. This task was given a strict deadline of one day, requiring fast implementation with a focus on object-oriented, readable code.
 
 I implemented a video libary class to fetch specific videos, or all videos (from an internal list created by parsing a CSV file). This class was heavily relied on by the main implementation, the video player class. The video player class allowed for playing, pausing, stopping and continuing videos, playlist creation, deletion and viewing, as well as video searching and flagging. Each function relied upon other functions and made sure conditions were in place before carrying out certain actions. This includes making sure a video is playing if the user tries to resume, checking the amount of flags on a video before playing, and ensuring playlists exist beore adding videos to them.
 
-## Blender Image Composition with Physically Based Rendering and Photoshop
-
+## Blender Image Composition with Physically Based Rendering and Photoshop 
 > Blender, pbrt-v3, Photoshop
 
 The goal of this project was to create a scene of carefully chosen and placed objects, and create a realistic looking composition with the following 3D models: a [doom combat scene](https://www.artec3d.com/3d-models/doom-combat-scene), a [bovine heart](https://www.artec3d.com/3d-models/bovine-heart), a [sea shell](https://www.artec3d.com/3d-models/sea-shell), a [pipe bend](https://www.artec3d.com/3d-models/pipe-bend), and a [dragon](https://www.artec3d.com/3d-models/dragon). These were all models I chose as I found them to be interesting.
@@ -41,15 +39,14 @@ This render allowed scene specific shadows and highlights to be formed. From her
 
 <img src="./cg/final composite image.png">
 
-## Netflix Clone using AstraDB and GraphQL
-
+## Netflix Clone using AstraDB and GraphQL [<img src="square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/appdev-week3-graphql)
 > AstraDB, GraphQL
 
 This project was part of the DataStax development series. I created an AstraDB instance, and used GraphQL to create a movie and genre tabls, and populate it with a CSV dataset. This database was then conected to Netlify and the instance was deployed.
 
 <img src="./ui.png">
 
-## Implementation of Basic, Stop-And-Wait, Go-Back-N, and Selective Repeat Data Transmission Protocols
+## Implementation of Basic, Stop-And-Wait, Go-Back-N, and Selective Repeat Data Transmission Protocols [<img src="square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/CCN-Sliding-Window)
 
 > Linux, virtual machine, Python, Vagrant
 
@@ -99,7 +96,7 @@ The TC link parameters were set to 10Mbps bandwidth, 25ms one-way propagation de
 
 {% highlight python %}python3 Receiver4.py <Port> <Filename> <WindowSize>{% endhighlight %}
 
-## L4 firewall in OpenFlow and Port Mirroring in OpenFlow
+## L4 firewall in OpenFlow and Port Mirroring in OpenFlow [<img src="square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/mininet-ryu-openflow-protocol)
 
 > Python, OpenFlow, Mininet, Ryu
 
@@ -113,7 +110,7 @@ An OpenFlow controller was implemented on an OpenFlow switch with Ryu, using Pyt
   
 In a separate network,  all packets are allowed through. For every TCP connecton initiated by an external host, the first ten incoming packets are collected. 
 
-## Information Retrieval System Evaluation and Text Classification Using Text Technologies
+## Information Retrieval System Evaluation and Text Classification Using Text Technologies [<img src="square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/IR-Evaluation)
 > Python
   
 I built a module to evaluate IR systems using different retrieval scores. The inputs to the module are: system_results.csv file, containing the retrieved set of documents for 10 queries numbered from 1 to 10 for each of 6 different IR systems, and qrels.csv file, which contains the list of relevant documents for each of the 10 queries. 
@@ -130,12 +127,12 @@ The systems are analysed using the following metrics:
 Then using a corpora containing verses from the Quran and the Bible (split into Old and New Testaments). Considering each book as a separate corpus, and their verses as individual documents, the data is first preprocessed. This includes tokenisation, stopword removal. Mutual Information and chi-squared scores for all tokens (after preprocessing) for each of the corpora was calculated, and a ranked list was formed. Then a Latent Dirichlet Allocation (LDA) model was ran on the entire set of verses from all corpora together, and the results analysed and inspected.
 
 
-## Micro-Haskell Compiler
+## Micro-Haskell Compiler [<img src="square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/Micro-Haskell-Compiler)
 > Java
   
 This project encompassed the development of a compiler for Micro-Haskell (MH), a condensed fragment of the Haskell programming language. It illustrates all stages of the language processing pipeline for programming languages, from a source file, written in MH, to execution of the program. This project has four stages: lexing, parsing, typechecking and evaluation.
   
-## Natural Language Query System
+## Natural Language Query System [<img src="square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/Natural-Language-Query-System)
 > Python
   
 This project uses Python and NLTK to construct a system that reads simple facts and then answers questions about them.Words are stored as lexicons with stemming applied. Part-of-speech tagging of questions helps remove ambiguity. A context free grammar is used for the question language, with an associated parser. 
@@ -161,12 +158,12 @@ $$ Which purple ducks fly?
 None
 {% endhighlight %}
   
-## Blockchain Smart Contract Programming
+## Blockchain Smart Contract Programming [<img src="square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/Blockchain-Smart-Contract-Programming)
 > Solidity
   
 Two projects were implemented in Solidity on a private blockchain testnet through smart contracts. The aim was to make the contracts secure from hackers, gas efficient, and fair.
   
-### Matching Pennies - Game Theory
+### Matching Pennies - Game Theory 
 Two players, A and B, pick a number in {0,1} and reveal their choices simultaneously. If the choices match (both 0 or both 1) A wins 1 ETH. If the choices do not match (one 0 and one 1) B wins 1 ETH. Once the game is over, two new players are be able to use the contract to start a new game
   
 ## Custom Token
@@ -184,7 +181,7 @@ I created a custom token in the Etherium testnet Ropesten, with the following fu
   
   
   
-## Operating Systems Programming
+## Operating Systems Programming [<img src="square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/INFOS-ME)
 > C++, QEMU, vncviewer
   
 Using [InfOS](https://github.com/tspink/infos) created by Tom Spink, a small, readable swap out operating system written in C++, I implemented a priority task scheduler and the _tree_ command. The task scheduler of an operating system is the component that decides which tasks get to run on the processor. When there is only a single physical processor in a system, that processor must be shared amongst all runnable tasks. The multiple queue priority algorithm is also implemented and allows for greater flexibility during scheduling. The tree command has similar functionality to the ls unix command, but operates recursively, using indentation to display the hierarchical structure of the directory contents. Upon terminating, tree then prints the total number of files and directories listed. An example can be seen below.
@@ -192,7 +189,7 @@ Using [InfOS](https://github.com/tspink/infos) created by Tom Spink, a small, re
 <img src="tree-example.png">
   
   
-## Information Retreival Tool
+## Information Retreival Tool [<img src="square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/Information-Retreival-Tool)
 > Python  
 
 I implemented an IR tool, that pre-processes text through tokenisation, and stopword removal. A positional inverted index is created to store data, and used to perform:
@@ -201,7 +198,7 @@ I implemented an IR tool, that pre-processes text through tokenisation, and stop
 - Proximity search
 - Ranked IR based on TFIDF
   
-## This website!
+## This website! [<img src="square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">(https://github.com/moaylesbury/moaylesbury.github.io/tree/gh-pages)
 > HTML, markdown
   
 This website was created using GitHub pages and Jekyll themes, and put together using a combination of HTML and markdown.
@@ -210,7 +207,7 @@ This website was created using GitHub pages and Jekyll themes, and put together 
   
 # Unfinished Projects
   
-## Sorting Algorithm Visualiser (Unfinished)
+## Sorting Algorithm Visualiser (Unfinished) [<img src="square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/Sorting-Algorithm-Visualiser)
 > React, JavaScript, HTML
 
 I was interested in the computational theory behind sorting algorithms, as well as how these algorithms could be effectively visualised. I researched insertion sort, merge sort, selection sort, quick sort and pancake sort. From this research I compiled a document of [my findings](https://nbviewer.org/github/moaylesbury/Sorting-Algorithm-Visualiser/blob/master/Research/Sorting%20Algorithm%20Research.pdf), including how the algorithms work and their time complexities.
