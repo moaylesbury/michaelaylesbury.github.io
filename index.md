@@ -5,8 +5,8 @@ layout: default
 <!-- [Link to another page](./another-page.html). -->
 
 
+## Portfolio
 
-| Portfolio                                                   |
 |:------------------------------------------------------------|
 | [Undergraduate Thesis](./undergraduate-thesis.html)         |
 | [Individual Projects](./individual-projects.html)           | 
