@@ -33,5 +33,5 @@ others non-judgementally, with respect, empathy and compassion.
 
 ## Technologies Experience
 
-> Python, Java, React, JavaScript, Overleaf, Google Compute, Jupyter Notebook, MLIR, LLVM, Blender, pbrt-v3, Photoshop, virtual machine, Vagrant, AstraDB, GraphQL, OpenFlow, Mininet, Ryu, Solidity, C++, QEMU, vncviewer, HTML, markdown, Angular, TypeScript, Terminal, Windows, macOS, Linux, Haskell 
+> Python, Java, React, JavaScript, Overleaf, Google Compute, Jupyter Notebook, MLIR, LLVM, Blender, pbrt-v3, Photoshop, virtual machine, Vagrant, AstraDB, GraphQL, OpenFlow, Mininet, Ryu, Solidity, C++, QEMU, vncviewer, HTML, markdown, Angular, TypeScript, Terminal, Windows, macOS, Linux, Haskell, Netlify 
 
