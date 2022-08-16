@@ -5,6 +5,15 @@ layout: default
 <!-- [Link to another page](./another-page.html). -->
 
 
+
+| Portfolio                                                   |
+|:------------------------------------------------------------|
+| [Undergraduate Thesis](./undergraduate-thesis.html)         |
+| [Individual Projects](./individual-projects.html)           | 
+| [Group Projects](./group-projects.html)                     | 
+| [Awards & Certifications](./awards-and-certifications.md)   |
+
+
 ## Personal Statement
 
 > I am personally and technologically curious, aiming to be happy, grow myself and
@@ -27,11 +36,3 @@ others non-judgementally, with respect, empathy and compassion.
 
 > Python, Java, React, JavaScript, Overleaf, Google Compute, Jupyter Notebook, MLIR, LLVM, Blender, pbrt-v3, Photoshop, virtual machine, Vagrant, AstraDB, GraphQL, OpenFlow, Mininet, Ryu, Solidity, C++, QEMU, vncviewer, HTML, markdown, Angular, TypeScript, Terminal, Windows, macOS, Linux, Haskell 
 
-## 
-
-| Portfolio                                                   |
-|:------------------------------------------------------------|
-| [Undergraduate Thesis](./undergraduate-thesis.html)         |
-| [Individual Projects](./individual-projects.html)           | 
-| [Group Projects](./group-projects.html)                     | 
-| [Awards & Certifications](./awards-and-certifications.md)   |
