@@ -4,6 +4,27 @@ layout: default
 
 # Individual Projects
 
+## Angular To-do List[<img src="square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/Angular-To-Do-List/)
+> Angular, TypeScript, HTML, CSS
+
+A to-do list web application created using Angular and Typescript, where users can add and complete tasks. 
+
+<img src="to-do-list-demonstration.gif" height="50px" width="50px">
+
+The gif shows the features of the web app:
+- Users can add tasks, however the task name must not be empty
+- Hovering over elements enlarges them to gain focus
+- Hovering over buttons changes the cursor to a pointer and slightly changes their colours
+- Adding tasks causes them to fade in
+- Completing tasks causes them to fade out
+- The clear button fades out all tasks
+
+I learned valuable skills working on this:
+- Creating and deleting components using Angular (specifically ngFor in this case)
+- Making animations upon these creations and deletions (specifically fade in and fade out)
+
+
+
 ## Sudoku Solver [<img src="square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/Python-Sudoku-Solver)
 > Python
 
@@ -208,17 +229,14 @@ This website was created using GitHub pages and Jekyll themes, and put together 
 # Unfinished Projects
   
 ## Sorting Algorithm Visualiser [<img src="square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/Sorting-Algorithm-Visualiser)
-> React, JavaScript, HTML
+> React, JavaScript, HTML, CSS
 
 I was interested in the computational theory behind sorting algorithms, as well as how these algorithms could be effectively visualised. I researched insertion sort, merge sort, selection sort, quick sort and pancake sort. From this research I compiled a document of [my findings](https://nbviewer.org/github/moaylesbury/Sorting-Algorithm-Visualiser/blob/master/Research/Sorting%20Algorithm%20Research.pdf), including how the algorithms work and their time complexities.
 
 To get an idea of how these algorithms actually work in practice, I implemented their functionalities in Python and tried different test cases. From here I moved onto creating a web applciation using React. This was my first experience creating visual elements in JavaScript that move as internal data changes 
   
   
-## To-do List in Angular
-> Angular, TypeScript, HTML
 
-I'm currently working on a to-do list web application using Angular and Typescript, where users can add and complete tasks. I have learned how to make HTML elements interact with TypeScript, creating/deleting components.
   
   
   
