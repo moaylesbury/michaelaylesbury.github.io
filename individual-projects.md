@@ -9,7 +9,7 @@ layout: default
 
 A to-do list web application created using Angular and Typescript, where users can add and complete tasks. 
 
-<img src="to-do-list-demonstration.gif" height="50px" width="50px">
+<img src="to-do-list-demonstration.gif" height="25%" width="25%">
 
 The gif shows the features of the web app:
 - Users can add tasks, however the task name must not be empty
