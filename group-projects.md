@@ -42,7 +42,7 @@ I was responsible for applying pertubations to images, researching and writing t
 <em>Prize: JPMorgan Chase & Co. Empowering Minorities Award</em>
 > React, JavaScript, HTML
 
-Created an the Edinburgh, hackathon Hack the Burgh V, we were inspired by APIs developed by Nexmo, and J.P.Morgan's empowerment ideas. HearMe is our website, aimed at people who have hearing impairments or other conditions which make telephone conversations difficult or impossible. HearMe has a simple clean interface which takes in two arguments and returns one. It takes a phone number and a message. HearMe then calls the given number using the Nexmo API and reads the message. After the call, the speech from the other user is converted to text. It is 'a voice for those who need it'.
+Created at the Edinburgh hackathon Hack the Burgh V, we were inspired by APIs developed by Nexmo, and J.P.Morgan's empowerment ideas. HearMe is our website, aimed at people who have hearing impairments or other conditions which make telephone conversations difficult or impossible. HearMe has a simple clean interface which takes in two arguments and returns one. It takes a phone number and a message. HearMe then calls the given number using the Nexmo API and reads the message. After the call, the speech from the other user is converted to text. It is 'a voice for those who need it'.
 
 I was responsible for the mock-up design of the website, and the front-end implementation. The DevPost page for this project can be found [here](https://devpost.com/software/hear-me).
 
