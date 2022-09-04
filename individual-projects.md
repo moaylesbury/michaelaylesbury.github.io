@@ -4,7 +4,7 @@ layout: default
 
 # Individual Projects
 
-## Algorithm Test Questions[<img src="square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">]([https://github.com/moaylesbury/Angular-To-Do-List/](https://github.com/moaylesbury/Programming-Challenge/)
+## Algorithm Test Questions[<img src="square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/Angular-To-Do-List/](https://github.com/moaylesbury/Programming-Challenge/)
 > Python, Java, C, C++
 
 I completed a series of algorithmic test questions across four different languages. There was a general test, Python test, C test, C++ and Java test. The General and Python question focused on algorithmic solutions, while the other languages focused on implementations of singly and doubly linked lists, object creationd and destruction, and bit shifting.
