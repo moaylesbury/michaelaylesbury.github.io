@@ -13,19 +13,13 @@ layout: default
 | [Awards & Certifications](./awards-and-certifications.md)   |
 
 
-## Personal Statement
+## About Me
 
-> I am personally and technologically curious, aiming to be happy, grow myself and
-others around me by staying informed, living outside of my comfort zone, and treating
-others non-judgementally, with respect, empathy and compassion.
+> I am a hardworking, passionate and empathetic person, with demonstrated experience as a Salesforce developer. I am confident in producing high quality Lightning Web Components and Apex code, understanding business logic, translating technical jargon and training agents in component use. In my own time I enjoy weightlifting, music production and cooking.
 
 ## What I'm Looking for
 
-> I have just finished university, and I am searching for a job as an entry level software engineer. My strongest programming languages are Python and Java. However, I have a large amount of experience in programming, and can quickly learn and improve my skills in new languages.
-
-## About Me
-
-> In my spare time I enjoy cooking, socialising, going to the gym, making and listening to music, drawing, and programming personal projects.
+> I am looking for a fully remote Salesforce Developer job 
 
 ## Education
 
@@ -34,4 +28,3 @@ others non-judgementally, with respect, empathy and compassion.
 ## Technologies Experience
 
 > Python, Java, React, CSS, JavaScript, GitHub, Overleaf, Google Compute, Jupyter Notebook, MLIR, LLVM, Blender, pbrt-v3, Photoshop, virtual machine, Vagrant, AstraDB, GraphQL, OpenFlow, Mininet, Ryu, Solidity, C++, QEMU, vncviewer, HTML, markdown, Angular, TypeScript, Terminal, Windows, macOS, Linux, Haskell, Netlify 
-
