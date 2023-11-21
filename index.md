@@ -22,7 +22,7 @@ layout: default
 
 > I am looking for a fully remote developer job, open to any industry and programming language.
 
-> I have completed competency tests across Java, Python, C and C++, which can be found [here](https://github.com/moaylesbury/Language-Competency)
+> I have completed competency tests across Java, Python, C and C++, which can be found [here](https://github.com/moaylesbury/Language-Competency).
 
 ## Professional Experience
 > I have worked at Greengage as a Salesforce developer since September 2022. My responsibilities include:
