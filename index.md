@@ -5,13 +5,13 @@ layout: default
 <!-- [Link to another page](./another-page.html). -->
 
 
-| Portfolio                                                   |
-|:------------------------------------------------------------|
-| [Professional Projects](./pages/salesforce-projects.html)   |
-| [Individual Projects](./individual-projects.html)           | 
-| [Group Projects](./group-projects.html)                     | 
-| [Awards & Certifications](./awards-and-certifications.md)   |
-| [Undergraduate Thesis](./undergraduate-thesis.html)         |
+| Portfolio                                                      |
+|:---------------------------------------------------------------|
+| [Professional Projects](./pages/salesforce-projects.html)      |
+| [Individual Projects](./pages/individual-projects.html)        | 
+| [Group Projects](./pages/group-projects.html)                  | 
+| [Awards & Certifications](./pages/awards-and-certifications.md)|
+| [Undergraduate Thesis](./pages/undergraduate-thesis.html)      |
 
 
 ## About Me
