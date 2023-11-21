@@ -37,4 +37,4 @@ layout: default
 
 ## Technologies Experience
 
-> Python, Java, React, CSS, JavaScript, GitHub, Overleaf, Google Compute, Jupyter Notebook, MLIR, LLVM, Blender, pbrt-v3, Photoshop, virtual machine, Vagrant, AstraDB, GraphQL, OpenFlow, Mininet, Ryu, Solidity, C++, QEMU, vncviewer, HTML, markdown, Angular, TypeScript, Terminal, Windows, macOS, Linux, Haskell, Netlify 
+> Python, Java, CSS, JavaScript, GitHub, C++, HTML, markdown, Terminal, Windows, macOS, Linux, Salesforce Lightning, REST APIs, Wrike, React.js, HTML, Microsoft Azure, GitHub, Apex, Apex Programming, Visualforce, Salesforce.com
