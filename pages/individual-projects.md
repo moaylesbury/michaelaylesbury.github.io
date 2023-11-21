@@ -213,7 +213,7 @@ I created a custom token in the Etherium testnet Ropesten, with the following fu
   
 Using [InfOS](https://github.com/tspink/infos) created by Tom Spink, a small, readable swap out operating system written in C++, I implemented a priority task scheduler and the _tree_ command. The task scheduler of an operating system is the component that decides which tasks get to run on the processor. When there is only a single physical processor in a system, that processor must be shared amongst all runnable tasks. The multiple queue priority algorithm is also implemented and allows for greater flexibility during scheduling. The tree command has similar functionality to the ls unix command, but operates recursively, using indentation to display the hierarchical structure of the directory contents. Upon terminating, tree then prints the total number of files and directories listed. An example can be seen below.
   
-<img src="tree-example.png">
+<img src="../assets/imgs/tree-example.png">
   
   
 ## Information Retreival Tool [<img src="../assets/svgs/square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/Information-Retreival-Tool)
