@@ -16,7 +16,7 @@ layout: default
 
 ## About Me
 
-> I am a hardworking, passionate and empathetic person, with demonstrated experience as a developer. I am confident working with a team to produce high quality code and user interfaces, as well as understanding business logic and translating technical jargon. In my own time I enjoy weightlifting, music production and cooking.
+> I am a hardworking, passionate and empathetic person, with demonstrated experience as a developer. I am confident working with a team to produce high-quality code and user interfaces, as well as understanding business logic and translating technical jargon. In my own time I enjoy weightlifting, music production and cooking.
 
 ## What I'm Looking for
 
