@@ -4,10 +4,10 @@ layout: default
 
 # Individual Projects
 
-## Algorithm Test Questions[<img src="../assets/svgs/square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/Programming-Challenge/)
+## Language Competency Questions[<img src="../assets/svgs/square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/Programming-Challenge/)
 > Python, Java, C, C++
 
-I completed a series of algorithmic test questions across four different languages. There was a general test, Python test, C test, C++ and Java test. The General and Python questions focused on algorithmic solutions, while the other languages focused on implementations of singly and doubly linked lists, object creation and destruction, and bit shifting.
+I completed a series of test questions across four different languages. There was a general test, Python test, C test, C++ and Java test. The General and Python questions focused on algorithmic solutions, while the other languages focused on implementations of singly and doubly linked lists, object creation and destruction, and bit shifting.
 
 
 ## Angular To-do List[<img src="../assets/svgs/square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/Angular-To-Do-List/)
