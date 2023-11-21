@@ -16,7 +16,7 @@ We presented this at a local fair as a team, explaining the concept and project 
 
 A phone demonstration:
 <br>
-<img src="ed.gif" width="25%" height="25%">
+<img src="./assets/imgs/ed.gif" width="25%" height="25%">
 
 ## Search Engine Project
 <em>Role: Back-end developer</em>
@@ -26,7 +26,7 @@ We created a custom song lyric search engine. Our website serves as an intuitive
 
 I was responsible for finding appropriate lyric websites for both English and Spanish lyrics. I then created the web crawler structure in Python. I took this structure and fully developed the Spanish scraper, as well as a controller acting as an entry point to run both scrapers. All lyrics were stored in a database for analysis, and unique word frequencies were analysed. The most frequent words were identified as stop words. My contributions and a specification of the system can be found [here](https://nbviewer.org/github/moaylesbury/ED-Report/blob/main/ttds_group20.pdf).
 
-<img src="lyricsRus.png">
+<img src="./assets/imgs/lyricsRus.png">
 
 ## Machine Learning Project
 <em>Role: Researcher and writer</em>
@@ -46,4 +46,4 @@ Created at the Edinburgh hackathon Hack the Burgh V, we were inspired by APIs de
 
 I was responsible for the mock-up design of the website, and the front-end implementation. The DevPost page for this project can be found [here](https://devpost.com/software/hear-me).
 
-<img src="hearme.jpeg">
+<img src="./assets/imgs/hearme.jpeg">
