@@ -4,18 +4,18 @@ layout: default
 
 # Individual Projects
 
-## Algorithm Test Questions[<img src="./assets/svgs/square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/Programming-Challenge/)
+## Algorithm Test Questions[<img src="../assets/svgs/square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/Programming-Challenge/)
 > Python, Java, C, C++
 
 I completed a series of algorithmic test questions across four different languages. There was a general test, Python test, C test, C++ and Java test. The General and Python questions focused on algorithmic solutions, while the other languages focused on implementations of singly and doubly linked lists, object creation and destruction, and bit shifting.
 
 
-## Angular To-do List[<img src="./assets/svgs/square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/Angular-To-Do-List/)
+## Angular To-do List[<img src="../assets/svgs/square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/Angular-To-Do-List/)
 > Angular, TypeScript, HTML, CSS
 
 A to-do list web application created using Angular and Typescript, where users can add and complete tasks. 
 
-<img src="./assets/imgs/to-do-list-demonstration.gif" height="25%" width="25%">
+<img src="../assets/imgs/to-do-list-demonstration.gif" height="25%" width="25%">
 
 The gif shows the features of the web app:
 - Users can add tasks, however the task name must not be empty
@@ -31,7 +31,7 @@ I learned valuable skills working on this:
 
 
 
-## Sudoku Solver [<img src="./assets/svgs/square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/Python-Sudoku-Solver)
+## Sudoku Solver [<img src="../assets/svgs/square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/Python-Sudoku-Solver)
 > Python
 
 
@@ -39,9 +39,9 @@ A sudoku game I created in python using the modules tkinter and numpy. This was 
 
 In the future I would create a more sophisticated board generating algorithm, as the current one ends up with trends such as 1,2,3,4,5,6,7,8,9 in the first line and consecutive numbers appearing often.
 
-<img src="./assets/imgs//sudoku board.png">
+<img src="../assets/imgs//sudoku board.png">
 
-## Bright Internship Work Sample [<img src="./assets/svgs/square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/Bright-Internship-Google-Work-Sample)
+## Bright Internship Work Sample [<img src="../assets/svgs/square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/Bright-Internship-Google-Work-Sample)
 
 > Python 
 
@@ -56,24 +56,24 @@ The goal of this project was to create a scene of carefully chosen and placed ob
 
 I began by taking the original image 
 
-<img src="./cg/original file.jpg">
+<img src="../cg/original file.jpg">
 
 Then, in order to cast realistic shadows and lighting, I measured the relative distance between all objects and shelf lengths, as well as the distance of the light source. All of these measurements were then used to model the scene in Blender. Images were also taken in order to texture the objects. Then the models were imported into Blender and placed, and I created textures and exported the scene using the [pbrt-v3](https://pbrt.org/users-guide) rendering system. Terminal was then used with pbrt in order to render the scene, which produced the following image.
 
-<img src="./cg/colour corrected render.png">
+<img src="../cg/colour corrected render.png">
 
 This render allowed scene specific shadows and highlights to be formed. From here, the original image and the rendered image were taken into Photoshop, and a composite was created. Colour correcting and touchups were applied in order to achieve the best possible final product.
 
-<img src="./cg/final composite image.png">
+<img src="../cg/final composite image.png">
 
-## Netflix Clone using AstraDB and GraphQL [<img src="./assets/svgs/square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/appdev-week3-graphql)
+## Netflix Clone using AstraDB and GraphQL [<img src="../assets/svgs/square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/appdev-week3-graphql)
 > AstraDB, GraphQL, Netlify
 
 This project was part of the DataStax development series. I created an AstraDB instance, and used GraphQL to create a movie and genre tables, and populate it with a CSV dataset. This database was then connected to Netlify and the instance was deployed.
 
-<img src="./assets/imgs/ui.png">
+<img src="../assets/imgs/ui.png">
 
-## Implementation of Basic, Stop-And-Wait, Go-Back-N, and Selective Repeat Data Transmission Protocols [<img src="./assets/svgs/square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/CCN-Sliding-Window)
+## Implementation of Basic, Stop-And-Wait, Go-Back-N, and Selective Repeat Data Transmission Protocols [<img src="../assets/svgs/square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/CCN-Sliding-Window)
 
 > Linux, virtual machine, Python, Vagrant
 
@@ -123,7 +123,7 @@ The TC link parameters were set to 10Mbps bandwidth, 25ms one-way propagation de
 
 {% highlight python %}python3 Receiver4.py <Port> <Filename> <WindowSize>{% endhighlight %}
 
-## L4 firewall in OpenFlow and Port Mirroring in OpenFlow [<img src="./assets/svgs/square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/mininet-ryu-openflow-protocol)
+## L4 firewall in OpenFlow and Port Mirroring in OpenFlow [<img src="../assets/svgs/square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/mininet-ryu-openflow-protocol)
 
 > Python, OpenFlow, Mininet, Ryu
 
@@ -137,7 +137,7 @@ An OpenFlow controller was implemented on an OpenFlow switch with Ryu, using Pyt
   
 In a separate network,  all packets are allowed through. For every TCP connecton initiated by an external host, the first ten incoming packets are collected. 
 
-## Information Retrieval System Evaluation and Text Classification Using Text Technologies [<img src="./assets/svgs/square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/IR-Evaluation)
+## Information Retrieval System Evaluation and Text Classification Using Text Technologies [<img src="../assets/svgs/square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/IR-Evaluation)
 > Python
   
 I built a module to evaluate IR systems using different retrieval scores. The inputs to the module are: system_results.csv file, containing the retrieved set of documents for 10 queries numbered from 1 to 10 for each of 6 different IR systems, and qrels.csv file, which contains the list of relevant documents for each of the 10 queries. 
@@ -154,12 +154,12 @@ The systems are analysed using the following metrics:
 Then corpora containing verses from the Quran and the Bible (split into Old and New Testaments) were used. Considering each book as a separate corpus, and their verses as individual documents, the data is first preprocessed. This includes tokenisation and stopword removal. Mutual Information and chi-squared scores for all tokens (after preprocessing) for each of the corpora was calculated, and a ranked list was formed. Then a Latent Dirichlet Allocation (LDA) model was ran on the entire set of verses from all corpora together, and the results were analysed and inspected.
 
 
-## Micro-Haskell Compiler [<img src="./assets/svgs/square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/Micro-Haskell-Compiler)
+## Micro-Haskell Compiler [<img src="../assets/svgs/square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/Micro-Haskell-Compiler)
 > Java
   
 This project encompassed the development of a compiler for Micro-Haskell (MH), a condensed fragment of the Haskell programming language. It illustrates all stages of the language processing pipeline for programming languages, from a source file, written in MH, to execution of the program. This project has four stages: lexing, parsing, typechecking and evaluation.
   
-## Natural Language Query System [<img src="./assets/svgs/square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/Natural-Language-Query-System)
+## Natural Language Query System [<img src="../assets/svgs/square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/Natural-Language-Query-System)
 > Python
   
 This project uses Python and NLTK to construct a system that reads simple facts and then answers questions about them.Words are stored as lexicons with stemming applied. Part-of-speech tagging of questions helps remove ambiguity. A context free grammar is used for the question language, with an associated parser. 
@@ -185,7 +185,7 @@ $$ Which purple ducks fly?
 None
 {% endhighlight %}
   
-## Blockchain Smart Contract Programming [<img src="./assets/svgs/square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/Blockchain-Smart-Contract-Programming)
+## Blockchain Smart Contract Programming [<img src="../assets/svgs/square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/Blockchain-Smart-Contract-Programming)
 > Solidity
   
 Two projects were implemented in Solidity on a private blockchain testnet through smart contracts. The aim was to make the contracts secure from hackers, gas efficient, and fair.
@@ -208,7 +208,7 @@ I created a custom token in the Etherium testnet Ropesten, with the following fu
   
   
   
-## Operating Systems Programming [<img src="./assets/svgs/square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/INFOS-ME)
+## Operating Systems Programming [<img src="../assets/svgs/square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/INFOS-ME)
 > C++, QEMU, vncviewer
   
 Using [InfOS](https://github.com/tspink/infos) created by Tom Spink, a small, readable swap out operating system written in C++, I implemented a priority task scheduler and the _tree_ command. The task scheduler of an operating system is the component that decides which tasks get to run on the processor. When there is only a single physical processor in a system, that processor must be shared amongst all runnable tasks. The multiple queue priority algorithm is also implemented and allows for greater flexibility during scheduling. The tree command has similar functionality to the ls unix command, but operates recursively, using indentation to display the hierarchical structure of the directory contents. Upon terminating, tree then prints the total number of files and directories listed. An example can be seen below.
@@ -216,7 +216,7 @@ Using [InfOS](https://github.com/tspink/infos) created by Tom Spink, a small, re
 <img src="tree-example.png">
   
   
-## Information Retreival Tool [<img src="./assets/svgs/square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/Information-Retreival-Tool)
+## Information Retreival Tool [<img src="../assets/svgs/square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/Information-Retreival-Tool)
 > Python  
 
 I implemented an IR tool, that pre-processes text through tokenisation, and stopword removal. A positional inverted index is created to store data, and used to perform:
@@ -225,7 +225,7 @@ I implemented an IR tool, that pre-processes text through tokenisation, and stop
 - Proximity search
 - Ranked IR based on TFIDF
   
-## This website! [<img src="./assets/svgs/square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/moaylesbury.github.io/tree/gh-pages)
+## This website! [<img src="../assets/svgs/square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/moaylesbury.github.io/tree/gh-pages)
 > HTML, markdown
   
 This website was created using GitHub pages and Jekyll themes, and put together using a combination of HTML and markdown.
@@ -234,7 +234,7 @@ This website was created using GitHub pages and Jekyll themes, and put together 
   
 # Unfinished Projects
   
-## Sorting Algorithm Visualiser [<img src="./assets/svgs/square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/Sorting-Algorithm-Visualiser)
+## Sorting Algorithm Visualiser [<img src="../assets/svgs/square-github-brands.svg" height="25px" width="25px" style="padding-left:20px">](https://github.com/moaylesbury/Sorting-Algorithm-Visualiser)
 > React, JavaScript, HTML, CSS
 
 I was interested in the computational theory behind sorting algorithms, as well as how these algorithms could be effectively visualised. I researched insertion sort, merge sort, selection sort, quick sort and pancake sort. From this research I compiled a document of [my findings](https://nbviewer.org/github/moaylesbury/Sorting-Algorithm-Visualiser/blob/master/Research/Sorting%20Algorithm%20Research.pdf), including how the algorithms work and their time complexities.
