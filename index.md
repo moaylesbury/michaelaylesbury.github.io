@@ -16,27 +16,32 @@ layout: default
 
 ## About Me
 
-> I am a hardworking, passionate and empathetic person, with demonstrated experience as a developer. I am confident working with a team to produce high-quality code and user interfaces, as well as understanding business logic and translating technical jargon. In my own time I enjoy weightlifting, music production and cooking.
+> I am a hardworking, passionate and empathetic person, with demonstrated experience as a developer. Holding Salesforce Platform Developer I and .Net Full Stack Foundation certifications, I have a wide range of software development knowledge and can confidently research, design and implement full stack solutions. With consulting experience, I am able to effectively communicate with stakeholders, maintaining relationships and providing long-term support. I am personally  passionate about weightlifting, music production and cooking.
 
-## What I'm Looking for
+## My Technologies
 
-> I am looking for a fully remote developer job, open to any industry and programming language.
-
-> I have completed competency tests across Java, Python, C and C++, which can be found [here](https://github.com/moaylesbury/Language-Competency).
+> Salesforce, Apex, HTML, Javascript, CSS, Java, Python, C++, C#, REST APIs, SOAP APIs, VSCode, Async Programming, Azure, Web Components, YAML, SQL, DevOps, HTTP, JSON, Git, NetSuite, OAuth, GitHub, Postman, Integrations, Testing, UAT, Springboot, .NET
 
 ## Professional Experience
-> I have worked at Greengage as a Salesforce developer since September 2022. My responsibilities include:
+> Xenogenix— Full Stack Software Developer & Consultant (April 2024 - September 2024 (6 months))
+* Carried out requirements gathering workshops with clients
+* Designed solutions and wrote solution design documents according to requirements
+* Implemented solutions, carried out testing and maintained client communication
+* Managed projects through Trello
+* Logged and maintained timesheets
+* Implemented GitHub organisation and upskilled other developers on its use
+* Implemented coding standards documentation and put together a GitHub repository containing a wiki, reusable Apex classes and VSCode snippets
 
-* Write code according to specification, design user interfaces and review code accuracy and functionality.
-* Analyse data to ensure quality of projects.
-* Maintain the code base and unit tests, work closely with others in the development team to drive projects forward, communicate with stakeholders as needed and explain technical jargon in a clear way.
-* Present projects to the business and provide training on how to use them.
-* Manage projects through Wrike.
+> Greengage — Full Stack Software Developer (September 2022 - April 2024 (1 year, 8 months))
+* Maintained and extended an internal Salesforce org in a Banking as a Service (BaaS) context
+* Carried out deployments and testing, from scratch org to sandbox to production
+* Submitted code and user interfaces for review and acted on feedback accordingly
+* Maintained and extended Azure integration
+* Communicated with stakeholders to gather project requirements
+* Presented projects to the business and carried out training and upskilling sessions
+* Created an Experience Cloud business-to-consumer (B2C) registration portal from scratch
+* Implemented reconciliation tool, transaction viewer, and fee viewer, replacing Excel spreadsheets and significantly improving daily operational efficiency for internal agents
 
 ## Education
 
 > Computer Science (BSc Hons) from The University of Edinburgh
-
-## Technologies Experience
-
-> Python, Java, CSS, JavaScript, GitHub, C++, HTML, markdown, Terminal, Windows, macOS, Linux, Salesforce Lightning, REST APIs, Wrike, React.js, HTML, Microsoft Azure, GitHub, Apex, Apex Programming, Visualforce, Salesforce.com
